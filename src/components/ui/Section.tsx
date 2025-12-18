@@ -19,7 +19,7 @@ interface sectionProps {
  */
 const Section = ({children, className = "", background = 'cream'}: sectionProps) => {
   const bgColor = background === 'white' ? 'bg-white' : "bg-background";
-  return <div className = {` w-full ${bgColor} ${className}`}>{children}</div>;
+  return <section className = {` w-full ${bgColor} ${className}`}>{children}</section>;
 };
 
 export default Section;

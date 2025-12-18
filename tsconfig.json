@@ -22,7 +22,8 @@
       "@/*": ["./*"],
       "@/types": ["./src/types/index.ts"],
       "@/ui": ["./src/components/ui/index.ts"],
-      "@/components": ["./src/components/layout/index.ts"]
+      "@/layout": ["./src/components/layout/index.ts"],
+      // "@/sections": ["./src/components/sections/index.ts"]
     }
   },
   "include": [

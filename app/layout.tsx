@@ -3,7 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 // Using your Barrel Exports for clean organization
-import { Navbar, Footer } from '@/components';
+import { Navbar, Footer } from '@/layout';
 import { FloatingWhatsApp } from '@/ui';
 
 /**

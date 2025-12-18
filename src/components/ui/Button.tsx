@@ -4,7 +4,7 @@ import React, { ReactNode } from "react";
 
 const BUTTON_VARIANTS = {
   primary: `bg-accent text-white hover:bg-color-goldHover shadow-lg`,
-  secondary: `border border-color-foreground text-color-foreground hover:bg-color-foreground hover:text-white`,
+  secondary: `border border-color-foreground text-color-foreground hover:bg-main hover:text-white`,
   text: `text-color-gold hover:text-goldHover underline-offset-4 hover:underline p-0`
 } as const;
 
@@ -39,7 +39,7 @@ interface buttonProps {
  */
 const Button = ({children, variant, className = "", onClick, type = "button",size="md"}: buttonProps) => {
 
-  const baseStyle: string = "px-8 py-3 transition-all duration-300 font-medium tracking-wide text-sm uppercase";
+  const baseStyle: string = "px-8 py-3 transition-all duration-300 font-medium tracking-wide text-sm uppercase cursor-pointer";
 
   return (<button type={type} onClick={onClick} className={`${baseStyle} ${BUTTON_VARIANTS[variant]} ${className} ${size}`}>
         {children}
