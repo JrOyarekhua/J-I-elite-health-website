@@ -11,6 +11,7 @@ const PAGE_ROUTES = {
     home: 'Home',
     programs: 'Programs',
     founder: 'Founder',
+    method: 'Method',
     clinicians: 'Clinicians',
     concierge: 'Concierge',
 } as const satisfies Record<PageRoute, string>;

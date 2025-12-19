@@ -82,7 +82,7 @@ export const PROGRAMS: Program[] = [
 /**
  * list of clinican indications to be used in the clinican indication page 
  */
-export const CLINICIAN_INDICATION: ClinicianIndication[] = [
+export const CLINICIAN_INDICATIONS: ClinicianIndication[] = [
     {
         category: 'Obstetrics',
         details: 'Diastasis Recti >2cm, Hypertrophic Scarring, Postpartum Back Pain'

@@ -15,10 +15,10 @@ const Programs = () => {
         Each program is a 2-week intensive designed to deliver months of results in a condensed window.
       </Typography>
     </div>
+    </Section>
+  <Section>
     <ProgramGrid/>
   </Section>
-
-  
 </div>)
 }
 

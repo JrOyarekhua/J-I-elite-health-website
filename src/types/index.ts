@@ -19,4 +19,4 @@ export interface ClinicianIndication {
 }
 
 // explicitly defines page route types in order to prevent broken links 
-export type PageRoute =  'home' | 'programs' | 'founder' | 'clinicians' | 'concierge';
+export type PageRoute =  'home' | 'programs' | 'founder' | 'clinicians' | 'concierge' | 'method';
