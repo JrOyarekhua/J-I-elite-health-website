@@ -25,6 +25,7 @@ interface buttonProps {
   onClick?: () => void, 
   size?: ButtonSize,
   type?: "submit" | "reset" | "button" | undefined, 
+  disabled?: boolean
 }
 
 /**
@@ -37,11 +38,11 @@ interface buttonProps {
  * @example
  * <Button variant="primary" onClick={handleBooking}>Reserve Now</Button>
  */
-const Button = ({children, variant, className = "", onClick, type = "button",size="md"}: buttonProps) => {
+const Button = ({children, variant, className = "", onClick, type = "button",size="md", disabled = false}: buttonProps) => {
 
   const baseStyle: string = "px-8 py-3 transition-all duration-300 font-medium tracking-wide text-sm uppercase cursor-pointer";
 
-  return (<button type={type} onClick={onClick} className={`${baseStyle} ${BUTTON_VARIANTS[variant]} ${className} ${size}`}>
+  return (<button type={type} onClick={onClick} className={`${baseStyle} ${BUTTON_VARIANTS[variant]} ${className} ${size}`} disabled={disabled}>
         {children}
   </button>)
 ;

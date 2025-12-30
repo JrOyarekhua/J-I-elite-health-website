@@ -5,11 +5,16 @@ export interface Program {
     readonly title: string,
     readonly tagline: string,
     readonly description: string,
+    readonly whoFor: string,
     readonly interventions: string[],
     readonly outcome: string,
     readonly story: {
         readonly name: string,
         readonly quote: string
+    }
+    readonly image: {
+        readonly url: string,
+        readonly desc: string
     }
 }
 
@@ -19,4 +24,15 @@ export interface ClinicianIndication {
 }
 
 // explicitly defines page route types in order to prevent broken links 
-export type PageRoute =  'home' | 'programs' | 'founder' | 'clinicians' | 'concierge' | 'method';
+export type PageRoute =  'home' | 'programs' | 'founder' | 'clinicians' | 'contact' | 'method';
+
+export interface formData {
+    fullName: string,
+    primaryGoal: string,
+    proxyDetails?: string,
+    contactOption: string,
+    email: string,
+    customGoal?: string,
+    bookingType: string,
+    phoneNumber: string
+}

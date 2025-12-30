@@ -1,17 +1,18 @@
 import React from 'react';
-import { MapPin, Lock, CreditCard, ShieldCheck } from 'lucide-react';
+import { MapPin, Lock, CreditCard, ShieldCheck, Phone, Mail } from 'lucide-react';
 import { Typography } from '@/ui';
+import Image from 'next/image';
 
 // 1. Content Schema (Easy to edit later)
 const FOOTER_DATA = {
-  location: "Maitama & Asokoro, Abuja, FCT",
-  trust: "Strictly Confidential. NDA Protocols Available.",
+  number: '+17032093359',
+  email:'annudofia@gmail.com',
   copy: `© ${new Date().getFullYear()} J&I Elite Health & Wellness. All rights reserved.`
 } as const;
 
 const Footer = () => {
   return (
-    <footer className="bg-main text-white py-16 px-6 border-t border-white/5">
+    <footer className={`bg-main text-white py-16 px-6 border-t border-white/5 `} >
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
         
         {/* Column 1: Brand */}
@@ -19,30 +20,33 @@ const Footer = () => {
           <Typography variant="h3" color='text-white' className="tracking-widest">
             J&I <span className="text-white">ELITE</span>
           </Typography>
-          <Typography variant="body" className="text-gray-400 leading-relaxed max-w-xs">
-            The world-class care you usually travel for. Now in Abuja.
-          </Typography>
         </div>
 
         {/* Column 2: Private Protocols */}
         <div className="space-y-4">
           <Typography variant="h4" color='text-accent' className="italic font-serif">
-            Private Suites
+            Contact Us
           </Typography>
           <div className="space-y-3">
             <div className="flex items-start gap-3 text-gray-400 text-sm">
-              <MapPin size={18} className="text-accent shrink-0" />
-              <span>{FOOTER_DATA.location}</span>
+              <Phone size={18} className="text-accent shrink-0" />
+              <span>{FOOTER_DATA.number}</span>
             </div>
             <div className="flex items-start gap-3 text-gray-400 text-sm italic">
-              <Lock size={18} className="text-accent shrink-0" />
-              <span>{FOOTER_DATA.trust}</span>
+              <Mail size={18} className="text-accent shrink-0" />
+              <span>{FOOTER_DATA.email}</span>
             </div>
           </div>
         </div>
-
+        <div className='flex items-start'>
+        {/* <Image alt="logo" src={'/images/transparent_logo.png'} width={160} height={75}/> */}
+        <Typography variant="small" color='text-muted'>
+            {FOOTER_DATA.copy}
+        </Typography>
+        </div>
+        
         {/* Column 3: Trust & Payments */}
-        <div className="space-y-4">
+        {/* <div className="space-y-4">
           <Typography variant="h4" color='text-accent' className="italic font-serif">
             Payment & Trust
           </Typography>
@@ -59,7 +63,7 @@ const Footer = () => {
           <Typography variant="small" color='text-muted' className=" opacity-70">
             {FOOTER_DATA.copy}
           </Typography>
-        </div>
+        </div> */}
 
       </div>
     </footer>

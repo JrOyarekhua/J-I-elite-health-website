@@ -17,7 +17,7 @@ const Programs = () => {
            <Typography variant="h4" color="text-accent" className="mb-2">The Pathways</Typography>
            <Typography variant="h2">Select Your Journey</Typography>
          </div>
-         <Button variant="text" onClick={() => router.push('/programs')} className="hidden md:block">View Full Program Details <ArrowRight size={16} className="inline ml-1" /></Button>
+         <Button variant="text" onClick={() => router.push('/programs')} className="hidden text-accent md:block">View Full Program Details <ArrowRight size={16} className="inline ml-1" /></Button>
       </div>
 
       <div className="grid md:grid-cols-3 gap-6">

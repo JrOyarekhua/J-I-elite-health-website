@@ -4,6 +4,7 @@ import {Section, Typography, Button} from '@/ui';
 import React from "react";
 import { useRouter } from "next/navigation";
 import { CheckCircle2, ChevronDown } from "lucide-react";
+import Image from "next/image"
 
 export const ProgramGrid = () => {
   const router = useRouter()
@@ -21,6 +22,10 @@ export const ProgramGrid = () => {
               <p className="font-serif text-xl italic text-gray-600 border-l-2 border-[#C5A059] pl-4">
                 {prog.tagline}
               </p>
+              <div className="bg-white/50 p-6 rounded-lg border border-gray-100">
+                 <h5 className="font-bold text-xs uppercase tracking-widest text-[#C5A059] mb-2">Who This Is For</h5>
+                 <p className="text-gray-700">{prog.whoFor}</p>
+              </div>
               <Typography variant="body" className="text-gray-600">
                 {prog.description}
               </Typography>
@@ -53,7 +58,7 @@ export const ProgramGrid = () => {
               </div>
     
               <div className="pt-4">
-                 <Button variant="primary" onClick={() => router.push('/concierge')}>Book This Intensive</Button>
+                 <Button variant="primary" onClick={() => router.push('/contact')}>Book This Intensive</Button>
               </div>
             </div>
     
@@ -61,9 +66,11 @@ export const ProgramGrid = () => {
             <div className="md:col-span-5 relative hidden md:block">
               <div className="sticky top-32">
                 <div className="aspect-[3/4] bg-neutral-200 rounded-sm shadow-xl relative overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center text-center p-8 text-neutral-500 bg-neutral-100">
-                     [Image: Contextual image for {prog.title}. <br/>E.g., Boardroom setting, or serene prayer mat.]
-                  </div>
+                  <Image
+                  src={prog.image.url}
+                  alt={prog.image.desc}
+                  fill={true}
+                  className={`absolute inset-0 object-cover`}/>
                 </div>
               </div>
             </div>

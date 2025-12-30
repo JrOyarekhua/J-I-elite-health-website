@@ -3,6 +3,7 @@ import { Section, Typography, Button } from "@/src/components/ui";
 import React from "react";
 import { useRouter } from "next/navigation";
 import { Activity, Brain, CheckCircle2, Fingerprint, X , Zap} from "lucide-react";
+import Image from "next/image";
 
 const Page = () => {
     const router = useRouter()
@@ -10,12 +11,13 @@ const Page = () => {
   <div className="animate-in fade-in duration-500">
     {/* Method Hero */}
     <Section background="white" className="py-20 border-b border-gray-100">
-      <div className="max-w-4xl mx-auto px-6 text-center">
+      <div className="max-w-4xl mx-auto px-6 flex flex-col items-center text-center">
         <Typography variant="h4" color="text-[#C5A059]" className="mb-4">The Proprietary Protocol</Typography>
         <Typography variant="h1" className="mb-6">Healing With Grace™</Typography>
-        <Typography variant="body" className="text-xl">
+        <Typography variant="body" className="text-xl mb-4">
           Global Clinical Excellence. Specialized for the African Woman.
         </Typography>
+        <Image alt="logo" src={'/images/transparent_logo.png'} width={220} height={75}/>
       </div>
     </Section>
 
@@ -79,14 +81,14 @@ const Page = () => {
               num: '03', 
               icon: <Brain size={32} />, 
               title: 'Nervous System Reset', 
-              desc: "Stress locks pain into the body. We guide your nervous system out of 'fight or flight'.",
-              detail: "Deep healing cannot happen when the body is defending itself. We create safety first."
+              desc: "Guiding your body out of fight or flight so deep healing can begin.",
+              detail: "Retraining your body for your actual life, whether that’s lifting a toddler or sitting through a board meeting."
             },
             { 
               num: '04', 
               icon: <Zap size={32} />, 
               title: 'Functional Freedom', 
-              desc: "We retrain your body for YOUR life—whether that’s lifting a toddler or sitting in a board meeting.",
+              desc: "Retraining your body for your actual life, whether that’s lifting a toddler or sitting through a board meeting.",
               detail: "Biomechanics adapted for your real-world movements, ensuring the pain doesn't return."
             }
           ].map((step, i) => (
@@ -111,7 +113,7 @@ const Page = () => {
     
     <Section background="cream" className="py-20 text-center">
        <Typography variant="h2" className="mb-8">Ready to start your journey?</Typography>
-       <Button variant="primary" onClick={() => router.push('/')}>Request Assessment</Button>
+       <Button variant="primary" onClick={() => router.push('/contact')}>Request Assessment</Button>
     </Section>
   </div>
 );

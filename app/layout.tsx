@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-
+import { headers } from "next/headers";
 // Using your Barrel Exports for clean organization
-import { Navbar, Footer } from '@/layout';
 import { FloatingWhatsApp } from '@/ui';
+
+
 
 /**
  * FONT CONFIGURATION
@@ -30,7 +31,13 @@ const sans = Inter({
 export const metadata: Metadata = {
   title: "J&I Elite | Concierge Health & Wellness Abuja",
   description: "World-class private medical care, aesthetic treatments, and wellness suites in Maitama & Asokoro.",
-  viewport: "width=device-width, initial-scale=1",
+  icons: '/images/transparent_logo.png'
+};
+
+// Add a separate viewport export
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -38,6 +45,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+ 
+
+  
+ 
   return (
     <html lang="en" className="scroll-smooth">
       <body
@@ -53,21 +64,9 @@ export default function RootLayout({
           min-h-screen
         `}
       >
-        {/* THE FRAME: Elements that never move while navigating */}
-        <Navbar />
-
-        {/* THE CONTENT: 
-          'min-h-screen' ensures the footer stays at the bottom even on short pages.
-          We removed pb-12 here so individual Sections can manage their own padding.
-        */}
-        <main className="flex-1 relative ">
+        {/* <main className="flex-1 relative "></main> */}
           {children}
-        </main>
-
-        <Footer />
         
-        {/* GLOBAL UI: Elements that float above the layout */}
-        <FloatingWhatsApp />
       </body>
     </html>
   );
