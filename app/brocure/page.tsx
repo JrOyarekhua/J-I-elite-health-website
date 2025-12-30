@@ -328,15 +328,131 @@ const Brochure = () => {
         </div>
       </section>
 
-      {/* FINAL CTA */}
-      <Section className="py-32 text-center" background="cream">
-          <Typography variant="h1" className="mb-8 uppercase tracking-tight">HEALING WITH <span className="text-[#C5A059]">GRACE™</span></Typography>
-          <Typography variant="body" className="max-w-2xl mx-auto text-gray-500 mb-12 text-lg">
-            Dr. Ann&apos;s schedule is strictly limited for Abuja residencies.<br/> We invite you to secure your private assessment today.
-          </Typography>
-          <Button variant="primary" size="lg" className="px-12" onClick={() => router.push('/contact')}>Request Private Consultation</Button>
-      </Section>
+    {/* PAGE 9: PARTNER VITALITY & CONCIERGE  */}
+    <section className="bg-[#1A202C] text-white py-24 page-break">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-16">
+            
+            {/* PARTNER VITALITY */}
+            <div>
+                <div className=" relative w-full h-64 mb-5">
+                <Image src="/images/treating_man.jpeg" alt="Partner Vitality" className=" relative object-cover shadow-2xl opacity-90 mb-8" fill/>
+                </div>
+                
+                <div className="text-[#C5A059] text-sm tracking-widest uppercase font-bold mb-2">Program 07</div>
+                <h3 className="font-serif text-3xl mb-4 text-[#C5A059]">Partner Vitality Optimization</h3>
+                <p className="font-serif italic text-lg text-gray-400 mb-6">Executive performance and longevity for the male partner.</p>
+                <p className="text-gray-300 mb-6 text-sm leading-relaxed">
+                    Men often suffer in silence too. Chronic stress, low energy, and &quot;nagging&quot; back, hip or pelvic pain are not just signs of aging; they are signs of a body under siege. We offer a discreet, high-performance maintenance program to ensure the head of the household is as physically resilient as he is professionally successful.
+                </p>
+                <div className="bg-white/10 p-4 rounded border border-white/20">
+                    <strong className="block text-[#C5A059] text-xs uppercase mb-2">Real Story: &quot;The Sportsman&quot;</strong>
+                    <p className="text-xs text-gray-300 mb-2"><strong>The Struggle:</strong> Avid cyclist with nagging hip pain. Told to &quot;just rest.&quot;</p>
+                    <p className="text-xs text-gray-300"><strong>The Transformation:</strong> &quot;After 12 visits, his hip pain was barely there. He returned to racing and set a personal best time. More importantly, he reported better energy and focus at work.&quot;</p>
+                </div>
+            </div>
+
+            {/* concierge circle */}
+            <div className="border-l border-white/10 pl-8 md:pl-16">
+                <h3 className="font-serif text-3xl mb-4 text-white">The Concierge Circle</h3>
+                <p className="font-serif italic text-lg text-[#C5A059] mb-6">Your Annual Health Security.</p>
+                <p className="text-gray-300 mb-8 text-sm leading-relaxed">
+                    Health is not a one-time fix; it is a continuous asset that must be managed. This membership is for the woman who demands continuity, immediate access, and a long-term strategy for her physical vitality. Think of this as &quot;Private Banking&quot; for your body.
+                </p>
+                <ul className="space-y-6 text-sm">
+                    <li className="flex gap-4">
+                        <span className="text-[#C5A059] text-xl">✦</span>
+                        <div><strong className="block text-white">Priority Access</strong><span className="text-gray-400">Skip the waitlist. Guaranteed booking windows for your Abuja residencies.</span></div>
+                    </li>
+                    <li className="flex gap-4">
+                        <span className="text-[#C5A059] text-xl">✦</span>
+                        <div><strong className="block text-white">Digital Continuity</strong><span className="text-gray-400">Quarterly virtual check-ins to monitor progress, adjust travel exercise plans, and manage any flare-ups while you are abroad (London/Dubai/US).</span></div>
+                    </li>
+                    <li className="flex gap-4">
+                        <span className="text-[#C5A059] text-xl">✦</span>
+                        <div><strong className="block text-white">The &quot;Inner Circle&quot;</strong><span className="text-gray-400">Exclusive invitations to private J&I wellness gatherings and early access to new longevity protocols.</span></div>
+                    </li>
+                    <li className="flex gap-4">
+                        <span className="text-[#C5A059] text-xl">✦</span>
+                        <div><strong className="block text-white">Care Coordination</strong><span className="text-gray-400">We act as the quarterback for your physical health, coordinating with your other specialists to ensure nothing falls through the cracks.</span></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section className="py-24 bg-[#FDFBF7] page-break">
+    <div className="max-w-5xl mx-auto px-6 text-center">
+      <h2 className="font-serif text-4xl mb-12 text-[#1A202C]">The J&I Promise</h2>
+      <div className="grid md:grid-cols-2 gap-8 text-left">
+        <div className="p-6 bg-white shadow-sm border-t-2 border-[#C5A059]">
+          <h4 className="font-bold text-[#1A202C] mb-2">Elite Medical Innovation</h4>
+          <p className="text-sm text-gray-600">
+            We utilize the same high-performance recovery protocols trusted by elite organizations like Google and Nike and developed at top-tier institutions like Stanford Health Care and Kaiser.
+          </p>
+        </div>
+        <div className="p-6 bg-white shadow-sm border-t-2 border-[#C5A059]">
+          <h4 className="font-bold text-[#1A202C] mb-2">US-Board Certified & Globally Proven</h4>
+          <p className="text-sm text-gray-600">
+            You are treated by a practitioner holding the highest level of US Board Certification, combined with decades of global experience.
+          </p>
+        </div>
+        <div className="p-6 bg-white shadow-sm border-t-2 border-[#C5A059]">
+          <h4 className="font-bold text-[#1A202C] mb-2">Collaborative Care</h4>
+          <p className="text-sm text-gray-600">
+            We do not work in isolation. We partner hand-in-hand with your existing doctors and caregivers to ensure your treatment plan is seamless.
+          </p>
+        </div>
+        <div className="p-6 bg-white shadow-sm border-t-2 border-[#C5A059]">
+          <h4 className="font-bold text-[#1A202C] mb-2">Absolute Discretion</h4>
+          <p className="text-sm text-gray-600">
+            Privacy is not just a luxury; it is a medical necessity. We provide a female-centered sanctuary that respects your modesty and lowers your stress response.
+          </p>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <section className="min-h-[50vh] bg-[#1A202C] relative flex flex-col justify-center items-center text-center p-8 page-break">
+    <div className="relative z-10 max-w-4xl mx-auto space-y-12">
+      <h2 className="font-serif text-5xl md:text-7xl text-white leading-tight">
+        STOP MANAGING THE PAIN.<br />
+        <span className="text-[#C5A059]">START HEALING.</span>
+      </h2>
+
+      <p className="text-xl text-gray-300 font-light">
+        Dr. Ann’s schedule is strictly limited for Abuja residencies.<br />
+        We invite you to secure your private assessment today.
+      </p>
+
+      {/* Button Action */}
+      <button 
+        type="button"
+        className="inline-block bg-[#C5A059] text-white px-12 py-4 text-sm font-bold tracking-widest uppercase hover:bg-[#B08D45] transition-colors cursor-pointer border border-[#C5A059]"
+        onClick={() => router.push('/contact')}
+      >
+        Inquire About Availability
+      </button>
+
+      <div className="grid md:grid-cols-2 gap-12 text-left bg-white/5 p-8 rounded border border-white/10 mt-12">
+        <div>
+          <h4 className="text-[#C5A059] uppercase tracking-widest text-xs font-bold mb-4">Our Commitment to Discretion</h4>
+          <p className="text-gray-400 text-sm leading-relaxed">
+            Privacy is not just a luxury; it is a medical necessity. J&I Elite adheres to strict NDA protocols and offers private suite access to ensure your anonymity and comfort. Your story is safe with us.
+          </p>
+        </div>
+        <div>
+          <h4 className="text-[#C5A059] uppercase tracking-widest text-xs font-bold mb-4">Contact Private Concierge</h4>
+          <ul className="space-y-2 text-gray-400 text-sm">
+            <li><strong>WhatsApp:</strong> +234 [Number]</li>
+            <li><strong>Email:</strong> concierge@jandi-elite.com</li>
+            <li><strong>Location:</strong> Private Suites in Maitama & Asokoro</li>
+            <li><strong>Web:</strong> www.jandi-elite.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
   );
 };
 

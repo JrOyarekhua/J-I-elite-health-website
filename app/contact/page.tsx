@@ -30,7 +30,6 @@ const Contact = () => {
         status, 
         submitForm, 
         handleGoalChange,
-        handleContactChange
 
     } = useContactForm();
 

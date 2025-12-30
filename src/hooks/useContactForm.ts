@@ -24,16 +24,6 @@ export const useContactForm = () => {
     setIsOther(value === 'Other');
   };
 
-  const handleContactChange = (value: string) => {
-    // Collects all data from inputs with 'name' attributes
-    if(value === 'call'){
-      window.location.href = 'tel:+17032093359'
-    }
-    else if(value === 'whatsapp'){
-     window.location.href = getWhatsAppLink()
-    }
-  }
-
 
   const submitForm = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -84,7 +74,6 @@ export const useContactForm = () => {
     status,
     submitForm,
     handleGoalChange,
-    handleContactChange,
     message,
     setMessage
   };
