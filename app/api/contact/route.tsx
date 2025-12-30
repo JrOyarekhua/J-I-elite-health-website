@@ -19,7 +19,7 @@ export async function POST(req: Request) {
 
 
   try {
-    console.log('sending email...')
+    // console.log('sending email...')
     await resend.emails.send({
       from: fromEmail,
       to: 'gabriel.oyarekhua@gmail.com',
@@ -27,7 +27,7 @@ export async function POST(req: Request) {
       html: html,
     });
 
-    console.log('email sent !')
+    // console.log('email sent !')
 
     return new Response(JSON.stringify({ success: true, message:'email succesfully sent' }), { status: 200 });
   } catch (e) {

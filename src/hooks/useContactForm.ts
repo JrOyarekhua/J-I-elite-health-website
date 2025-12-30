@@ -30,7 +30,7 @@ export const useContactForm = () => {
       window.location.href = 'tel:+17032093359'
     }
     else if(value === 'whatsapp'){
-      window.open(getWhatsAppLink(),'_blank')
+      window.open(getWhatsAppLink(),'_blank','noopener,noreferrer')
     }
   }
 
@@ -53,7 +53,6 @@ export const useContactForm = () => {
       bookingType: bookingTypeInput
     };
 
-    console.log(data)
 
     try {
     
