@@ -30,9 +30,7 @@ export const useContactForm = () => {
       window.location.href = 'tel:+17032093359'
     }
     else if(value === 'whatsapp'){
-      setTimeout(() => {
-        window.open(getWhatsAppLink(), '_blank', 'noopener,noreferrer');
-      }, 0);
+     window.location.href = getWhatsAppLink()
     }
   }
 
