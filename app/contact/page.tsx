@@ -1,9 +1,11 @@
 'use client'
 
 import { Button, Typography } from "@/src/components/ui";
-import React from "react";
+import React, { useRef } from "react";
 import { Lock, CheckCircle2, AlertCircle } from 'lucide-react';
 import { useContactForm } from "@/src/hooks/useContactForm";
+import { getWhatsAppLink } from "@/src/constants";
+
 
 // --- READ-ONLY DESIGN TOKENS ---
 const STX = {
@@ -31,6 +33,8 @@ const Contact = () => {
         handleContactChange
 
     } = useContactForm();
+
+    const whatsAppRef = useRef<HTMLAnchorElement>(null)
   
     return (
       <div className={STX.container}>
@@ -39,6 +43,8 @@ const Contact = () => {
             <Typography variant="h4" color="text-accent" className="mb-4">Concierge Booking</Typography>
             <Typography variant="h1" className="mb-4">Your Transformation Begins Here.</Typography>
           </div>
+          {/* hidden whatsapp link */}
+          <a href={getWhatsAppLink()} ref={whatsAppRef} className="hidden" rel="_blank">whatsapp</a>
   
           <div className={STX.card}>
             <form ref={formRef} className="space-y-8" onSubmit={submitForm}>
@@ -94,7 +100,12 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label htmlFor="contactOption" className={STX.label}>How would you like to contact us ? (Optional)</label>
                   <select name="contactOption" id="contactOption" className={STX.input} onChange={(e) => {
-                    handleContactChange(e.target.value)
+                    if(e.target.value === 'call'){
+                      window.location.href = 'tel:+17032093359'
+                    }
+                    else if(e.target.value === 'whatsapp'){
+                     whatsAppRef.current?.click()
+                    }
                   }}>
                     <option className="lg:hidden" value={'n/a'}>N/A</option>
                     <option value={'whatsapp'}>WhatsApp Message</option>
