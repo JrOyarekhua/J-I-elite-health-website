@@ -35,7 +35,7 @@ export const useContactForm = () => {
     const data: formType = { 
       fullName: getFormValue(formData, 'fullName'),
       email: getFormValue(formData, 'email'),
-      contactOption: getFormValue(formData, 'contactOption'),
+      contactOption: getFormValue(formData, 'contactOption'), // change to use state if needed in the future 
       primaryGoal: getFormValue(formData, 'primaryGoal'),
       proxyDetails: getFormValue(formData, 'proxyDetails'),
       customGoal: getFormValue(formData,'customGoal'),

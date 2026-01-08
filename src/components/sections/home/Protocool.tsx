@@ -21,7 +21,7 @@ const Protocool = () => {
            
            {[
              { num: '01', title: 'The Deep Dive', desc: 'We listen. We map your history to understand the root cause of the problem.' },
-             { num: '02', title: 'Hands-On Restoration', desc: 'No machines. We use advanced hands-on treatments to physically release the "held" tension in your body.' },
+             { num: '02', title: 'Hands-On Restoration', desc: 'We use advanced hands-on treatments to physically release the "held" tension in your body.' },
              { num: '03', title: 'Nervous System Reset', desc: 'Guiding your body out of fight or flight so deep healing can begin.' },
              { num: '04', title: 'Functional Freedom', desc: 'Retraining your body for your actual life, whether that’s lifting a toddler, or sitting through a board meeting.' }
            ].map((step, idx) => (

@@ -129,7 +129,7 @@ const Brochure = () => {
                       <div className="flex gap-6"><div className="text-4xl font-serif text-[#C5A059] opacity-50 font-bold">04</div><div><h3 className="font-serif text-xl font-bold mb-2">Functional Freedom</h3><p className="text-gray-600">We retrain your body for <em>your</em> life—whether that&apos;s lifting a toddler, sitting through a board meeting, or bowing in prayer without fear.</p></div></div>
                   </div>
                   <div className="relative h-[600px]">
-                      <Image src="/images/programs/striking_nigerian_window.jpeg" alt="Methodology" fill className="object-cover shadow-2xl" />
+                      <Image src="/images/nigerian_woman_golf.jpeg" alt="Methodology" fill className="object-cover shadow-2xl" />
                   </div>
               </div>
           </div>
@@ -142,12 +142,13 @@ const Brochure = () => {
                 <div className="text-[#C5A059] text-sm tracking-widest uppercase font-bold mb-2">Program 01</div>
                 <h3 className="font-serif text-4xl mb-4 text-[#1A202C]">The Executive Core Revival</h3>
                 <p className="font-serif italic text-xl text-gray-500 mb-6">For the woman who cannot afford downtime.</p>
-                <p className="text-gray-700 mb-6">You lead organizations and manage high-stakes decisions. But in private, you are managing chronic pain and disruptive physical discomfort. The cost of &quot;pushing through&quot; is too high—distraction in board meetings, inability to wear your wardrobe comfortably, and the looming threat of surgery. You cannot let a &quot;disconnected&quot; core threaten your career longevity.</p>
+                <p className="text-gray-700 mb-6">You lead organizations and manage high-stakes decisions. But in private, you are managing chronic pain and disruptive physical discomfort. The cost of &quot;pushing through&quot; is too high. Distraction in board meetings, inability to wear your wardrobe comfortably, endless use of pain medications, and the looming threat of surgery. You cannot let a &quot;disconnected&quot; core threaten your career longevity.</p>
                 
                 <div className="bg-white p-6 rounded shadow-sm border-l-4 border-[#C5A059] mb-8">
                     <h4 className="font-bold text-sm uppercase mb-4 text-[#1A202C]">The J&I Intervention</h4>
                     <ul className="space-y-4 text-sm text-gray-600">
-                        <li><strong>Deep Core Reconstruction:</strong> We focus on rebuilding the core and addressing the Diastasis Recti using specialized manual techniques and prescribed exercises to restore physical function without the need for surgery.</li>
+                        <li><strong>Nervous System & Physical Restoration:</strong> We focus on specialized hands-on techniques that do more than relax muscles, they reset your body’s stress response. By restoring true physical function and calming the nervous system, we create the physical foundation for mental clarity and focus.
+                        </li>
                         <li><strong>Tension & Postural Realignment:</strong> We use manual therapy and targeted exercises to gently release the deep tension and compensatory tightness in the core and spine that build up from high-stress work and constant &quot;pushing through.&quot;</li>
                         <li><strong>Confidence & Body Comfort:</strong> We don&apos;t just treat the pain; we address the symptoms and physical discomfort to improve how you look and feel in your body, restoring your confidence in your entire wardrobe.</li>
                     </ul>
@@ -156,10 +157,11 @@ const Brochure = () => {
                 <div className="bg-[#FDFBF7] p-8 border border-gray-200">
                     <h4 className="font-serif text-lg mb-4 italic text-[#1A202C] border-b border-[#C5A059] pb-2 inline-block">Real Story: &quot;The Executive&quot; (Patient C.P.)</h4>
                     <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
-                        <p><strong>The Struggle:</strong> A 50-year-old executive had suffered from chronic low back pain for a year. She had stopped her morning runs and was finding it impossible to sit through long strategy sessions. Her doctor had already suggested spinal surgery as the next step.</p>
-                        <p><strong>The HWG Breakthrough:</strong> Our deep dive revealed that she had postural compensation issues and untreated scar tissue. She didn&apos;t need surgery; she needed hands-on work to release the deep tension in her core, spine, and pelvis.</p>
-                        <p><strong>The Collaboration:</strong> We coordinated her care with her primary physician to ensure she was on the right types of medications to support the release work in therapy.</p>
-                        <p><strong>The Transformation:</strong> After 12 visits of the Executive Protocol, she canceled her surgery. She is back to running weekly and leads her team without the distraction of pain.</p>
+                        <p><strong>The Struggle:</strong> A 50-year-old executive had suffered from chronic low back pain for a year. She had stopped her morning workouts and was finding it impossible to sit through long strategy sessions. Her doctor had already suggested spinal surgery as the next step.</p>
+                        <p><strong>The HWG Breakthrough:</strong> Our deep dive revealed that she had postural compensation issues and untreated scar tissue from previous abdominal surgeries. She didn&apos;t need surgery; she needed hands-on work to release the deep tension in her core, spine, and pelvis.</p>
+                        <p><strong>The Collaboration:</strong> We coordinated her care with herorthopedic doctor to ensure she was on the right types of medications to support the hands-on work in therapy.</p>
+                        <p><strong>The Transformation:</strong> After 12 visits of the Executive Protocol, she canceled her surgery. She is back to exercising daily and leads her team without the distraction of pain.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -181,12 +183,12 @@ const Brochure = () => {
                 <div className="text-[#C5A059] text-sm tracking-widest uppercase font-bold mb-2">Program 02</div>
                 <h3 className="font-serif text-4xl mb-4 text-[#1A202C]">The Matriarch’s Restoration</h3>
                 <p className="font-serif italic text-xl text-gray-500 mb-6">For dignity, integrity in spiritual life, and full participation in life.</p>
-                <p className="text-gray-700 mb-6">Bladder control issues are not &quot;old age&quot;. They are a mechanical failure we can fix. The social cost of this condition is devastating—avoiding travel, fearing &quot;odors&quot; at weddings, and the disruption of religious or cultural practices due to leakage. We restore your confidence to stand, bow, and travel freely.</p>
+                <p className="text-gray-700 mb-6">Bladder control issues are not &quot;old age&quot;. They are a mechanical failure we can treat. The social cost of this condition is devastating: avoiding travel, fearing embarrassing situations at events, and the disruption of religious or cultural practices due to leakage. We restore your confidence to stand, move, and travel freely.</p>
                 
                 <div className="bg-[#FDFBF7] p-6 rounded shadow-sm border-l-4 border-[#C5A059] mb-8">
                     <h4 className="font-bold text-sm uppercase mb-4 text-[#1A202C]">The J&I Intervention</h4>
                     <ul className="space-y-4 text-sm text-gray-600">
-                        <li><strong>Pelvic Floor Training:</strong> We use manual therapy techniques and exercises to reposition the bladder, uterus, and pelvic floor muscles to relieve the sensation of &quot;falling out&quot;.</li>
+                        <li><strong>Pelvic Floor Training:</strong> We use manual therapy techniques and exercises to strengthen the pelvic floor muscles and better support the pelvic organs.</li>
                         <li><strong>Dryness Training:</strong> Neuromuscular retraining to ensure you remain dry during social gatherings, exercise, spiritual observance, and travel.</li>
                         <li><strong>Surgical Prevention:</strong> A proactive, conservative approach to avoid invasive often prescribed abroad.</li>
                     </ul>
@@ -196,9 +198,10 @@ const Brochure = () => {
                     <h4 className="font-serif text-lg mb-4 italic text-[#1A202C] border-b border-[#C5A059] pb-2 inline-block">Real Story: &quot;The Matriarch&quot; (Patient G.P.)</h4>
                     <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
                         <p><strong>The Struggle:</strong> A mother of two was suffering from leakage whenever she coughed, sneezed, or tried to exercise. She felt a heavy &quot;pressure&quot; by the end of every day and had begun withdrawing from social events out of fear of embarrassment.</p>
-                        <p><strong>The HWG Breakthrough:</strong> We identified that she was &quot;bearing down&quot; instead of lifting—a coordination error, not a permanent defect. We used biofeedback to retrain her brain-body connection.</p>
-                        <p><strong>The Collaboration:</strong> We worked hand-in-hand with her OBGYN to fit her with a temporary pessary (support device), allowing her to heal while maintaining her daily life.</p>
-                        <p><strong>The Transformation:</strong> She is now running 3-5 miles completely dry. The pressure is gone, and she has reclaimed her active social life.</p>
+                        <p><strong>The HWG Breakthrough:</strong> We identified lots of tightness, weakness, and coordination problems around her core and pelvic floor muscle.  A treatable condition, not a permanent defect. We used muscle re-training exercises to improve her core and pelvic floor strength.
+                        </p>
+                        <p><strong>The Collaboration:</strong> We worked hand-in-hand with her OB/GYN to fit her with a pessary (support device), allowing her to heal while maintaining her daily life.</p>
+                        <p><strong>The Transformation:</strong> She can bend, lift, cough without leaking, and she has reclaimed her active social life.</p>
                     </div>
                 </div>
             </div>
@@ -211,8 +214,8 @@ const Brochure = () => {
             <div className="order-2 md:order-1">
                 <div className="text-[#C5A059] text-sm tracking-widest uppercase font-bold mb-2">Program 03</div>
                 <h3 className="font-serif text-4xl mb-4 text-[#1A202C]">Pre-Conception & Fertility Optimization</h3>
-                <p className="font-serif italic text-xl text-gray-500 mb-6">Preparing the &quot;Womb Space&quot; to receive life.</p>
-                <p className="text-gray-700 mb-6">IVF cycles cost millions of Naira and take an immense emotional toll. You invest heavily in the science of conception; we ensure your body is physically capable of accepting that investment. We prepare the soil before you plant the seed, removing the mechanical barriers that often lead to &quot;unexplained&quot; failed cycles.</p>
+                <p className="font-serif italic text-xl text-gray-500 mb-6">Preparing the body to receive life.</p>
+                <p className="text-gray-700 mb-6">IVF cycles cost millions of Naira and take an immense emotional toll. You invest heavily in the science of conception; we ensure your body is physically capable of receiving that care. We prepare the soil before you plant the seed, removing the mechanical barriers that often lead to unexplained failed cycles.</p>
                 
                 <div className="bg-white p-6 rounded shadow-sm border-l-4 border-[#C5A059] mb-8">
                     <h4 className="font-bold text-sm uppercase mb-4 text-[#1A202C]">The J&I Intervention</h4>
@@ -226,10 +229,10 @@ const Brochure = () => {
                 <div className="bg-[#FDFBF7] p-8 border border-gray-200">
                     <h4 className="font-serif text-lg mb-4 italic text-[#1A202C] border-b border-[#C5A059] pb-2 inline-block">Real Story: &quot;The Fertility Seeker&quot; (Patient A.P.)</h4>
                     <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
-                        <p><strong>The Struggle:</strong> A young woman with endometriosis and a history of surgery was suffering from debilitating pain. Her abdomen was full of adhesions (internal scars) gluing her bladder to her uterus, creating a difficult environment for conception.</p>
-                        <p><strong>The HWG Breakthrough:</strong> Recognizing that her pain was fueled by anxiety, we combined gentle visceral manipulation to free the organs with nervous system regulation.</p>
-                        <p><strong>The Collaboration:</strong> We partnered with her fertility team, and other health care providers to coordinate her care, manage her stress triggers while we treated the tissue.</p>
-                        <p><strong>The Transformation:</strong> Her pain reduced by 75%. Her body shifted from a state of defense to a state of receptivity, creating the optimal environment for her next chapter.</p>
+                        <p><strong>The Struggle:</strong> A 30 year old woman with endometriosis, fibroids, and a history of pelvic surgery was suffering from debilitating pain. Her abdomen was full of adhesions (internal scars) gluing her ovaries, uterus, and fallopian tubes in her pelvis, creating a difficult environment for conception.</p>
+                        <p><strong>The HWG Breakthrough:</strong> We combined gentle manual work to help regulate the nervous system and free up the dense scar tissue throughout her pelvis.</p>
+                        <p><strong>The Collaboration:</strong> We partnered with her fertility team, and other health care providers to coordinate her care, manage her stress triggers while preparing her body for IVF.</p>
+                        <p><strong>The Transformation:</strong> Her pain reduced by over 85%. Her body shifted from a state of defense to a state of receptivity, creating the optimal environment for her next chapter.</p>
                     </div>
                 </div>
             </div>
@@ -251,14 +254,15 @@ const Brochure = () => {
                 <div className="text-[#C5A059] text-sm tracking-widest uppercase font-bold mb-2">Program 04</div>
                 <h3 className="font-serif text-4xl mb-4 text-[#1A202C]">The Postpartum Sanctuary</h3>
                 <p className="font-serif italic text-xl text-gray-500 mb-6">For core healing, scar recovery, and a return to self.</p>
-                <p className="text-gray-700 mb-6">After childbirth, you have family and support to care for the baby— but who is caring for you? The &quot;Mummy Tummy&quot; and back pain you feel are not vanity issues; they are signs of a core that has not healed. We provide the clinical restoration that traditional care misses.</p>
+                <p className="text-gray-700 mb-6">After childbirth, your family cares for you and the baby, and we care for your physical recovery. We’re here to help heal the &quot;mummy tummy&quot;, treat your birth scars, and back pain.
+                </p>
                 
                 <div className="bg-[#FDFBF7] p-6 rounded shadow-sm border-l-4 border-[#C5A059] mb-8">
                     <h4 className="font-bold text-sm uppercase mb-4 text-[#1A202C]">The J&I Intervention</h4>
                     <ul className="space-y-4 text-sm text-gray-600">
                         <li><strong>Comprehensive Scar Release:</strong> We use specialized manual therapy to treat C-section and perineal scars. This mobilization prevents issues like the scar &quot;shelf&quot; overhang and pelvic pain.</li>
-                        <li><strong>Postural Realignment:</strong> Improving posture and alignment that shift during pregnancy and the demands of nursing, lifting, and carrying the baby.</li>
-                        <li><strong>Intimacy Recovery:</strong> Gently resolving pain using manual therapy and exercises directly to the pelvic floor to ensure your return to marital intimacy is comfortable and confident.</li>
+                        <li><strong>Postural Realignment:</strong> We realign the body to counter the physical shifts of pregnancy and the daily strain of nursing and carrying your child, restoring your natural balance and ease of movement.</li>
+                        <li><strong>Intimacy Recovery:</strong> We use manual therapy techniques and exercises to encourage relaxation and blood flow to the pelvic floor, core and spine to ensure your return to marital intimacy is confident and pain-free.</li>
                     </ul>
                 </div>
 
@@ -266,9 +270,9 @@ const Brochure = () => {
                     <h4 className="font-serif text-lg mb-4 italic text-[#1A202C] border-b border-[#C5A059] pb-2 inline-block">Real Story: &quot;The New Mum&quot; (Patient E.K.)</h4>
                     <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
                         <p><strong>The Struggle:</strong> One year after a traumatic birth, &quot;E.K.&quot; was still in significant pain. She couldn&apos;t play with her child, she couldn&apos;t return to work, and intimacy with her husband had stopped completely. She was terrified of the idea of having another child.</p>
-                        <p><strong>The HWG Breakthrough:</strong> We found extensive scar tissue and a pelvic floor that was &quot;guarding&quot; due to trauma. We didn&apos;t just treat the muscle; we treated the memory of the birth, using a consent-based, trauma-informed approach.</p>
-                        <p><strong>The Collaboration:</strong> We coordinated with her doctor to introduce hormonal therapies that supported our manual work.</p>
-                        <p><strong>The Transformation:</strong> Her pain vanished. She returned to work and resumed intimacy with her husband. Most importantly, she went on to have a second, pain-free pregnancy because her body was finally healed.</p>
+                        <p><strong>The HWG Breakthrough:</strong> We identified that her pelvic floor was stuck in a &quot;protective state&quot; following her delivery. By using a trauma-informed approach, we helped her body feel safe enough to let go of that tension, allowing her to finally move without discomfort and feel like herself again.</p>
+                        <p><strong>The Collaboration:</strong> We coordinated with her OB/GYN to introduce hormonal therapies that supported our manual work.</p>
+                        <p><strong>The Transformation:</strong> Her pain vanished. She returned to work and resumed intimacy with her husband. Most importantly, she went on to have a second, pain-free pregnancy.</p>
                     </div>
                 </div>
             </div>
@@ -286,19 +290,22 @@ const Brochure = () => {
                 <div className="text-[#C5A059] text-sm tracking-widest uppercase font-bold mb-2">Program 05</div>
                 <h3 className="font-serif text-3xl mb-2 text-[#1A202C]">Chronic Pelvic Pain Sanctuary</h3>
                 <p className="font-serif italic text-lg text-gray-500 mb-4">The end of medical gaslighting.</p>
-                <p className="text-sm text-gray-700 mb-4">You have been told your pain is &quot;normal,&quot; &quot;in your head,&quot; or just a &quot;recurring infection.&quot; It is not. It is real, and we know how to treat it. Chronic pelvic pain steals your personality and your productivity. We stop the cycle of painkillers and antibiotics for &quot;infections&quot; you don&apos;t have.</p>
+                <p className="text-sm text-gray-700 mb-4">You have been told your pain is &apos;normal,&apos; &apos;all in your head,&apos; or simply a &apos;recurring infection.&apos; It is none of those things. Your pain is real, and more importantly, it is treatable. Chronic pelvic pain is a quiet thief of joy.. Our goal is to break the cycle of temporary fixes and medications that come with unwanted side effects, addressing the root cause so you can finally move forward and feel like yourself again.
+                </p>
                 
                 <ul className="space-y-2 text-sm text-gray-600 mb-6 bg-white p-4 border-l-4 border-[#C5A059]">
                     <li><strong>Pain-Loop Interruption:</strong> Turning off the &quot;alarm bells&quot; in your pelvis.</li>
-                    <li><strong>Adhesion Breaking:</strong> Releasing the &quot;glued&quot; tissues from old infections or endo flares.</li>
-                    <li><strong>Root Cause Assessment:</strong> Identifying mechanical pelvic dysfunction to solve the mystery.</li>
+                    <li><strong>Scar tissue release:</strong> Releasing the &quot;glued&quot; tissues from old surgical scars.</li>
+                    <li><strong>Root Cause Assessment:</strong> Identifying compensatory patterns in the body contributing to your pain.
+                    </li>
                 </ul>
 
                 <div className="bg-white p-4 border border-gray-200 text-sm text-gray-700 space-y-2">
                     <strong className="block text-[#C5A059]">Real Story: &quot;The Pain Warrior&quot; (P.K.)</strong>
-                    <p><strong>The Struggle:</strong> Fibroids removed, but pain remained. Her nervous system was highly sensitive.</p>
-                    <p><strong>The HWG Breakthrough:</strong> Extensive scar tissue remained. We reset the tissue and calmed the nerves.</p>
-                    <p><strong>The Transformation:</strong> After just 16 visits, she reported 90% reduction in pain. She didn&apos;t just return to running; she ran her fastest 10k ever.</p>
+                    <p><strong>The Struggle:</strong> Fibroids were surgically removed in the U.S, but her abdominal and pelvic pain remained 1 year later.</p>
+                    <p><strong>The HWG Breakthrough:</strong> Significant scar tissue had left her body in a guarded state. She avoided essential movements of her body for fear of further injury. We  focused on releasing the physical restrictions and retraining her body to feel safe and fluid in its natural motion.</p>
+                    <p><strong>The Transformation:</strong> After just 16 visits, she reported 90% reduction in pain, the constant fear of movement went away, allowing her to travel and return to the social activities that made her happy.
+                    </p>
                 </div>
             </div>
 
@@ -310,7 +317,8 @@ const Brochure = () => {
                 <div className="text-[#C5A059] text-sm tracking-widest uppercase font-bold mb-2">Program 06</div>
                 <h3 className="font-serif text-3xl mb-2 text-[#1A202C]">The Birth Ready Protocol</h3>
                 <p className="font-serif italic text-lg text-gray-500 mb-4">For a smoother, safer, and more empowered delivery.</p>
-                <p className="text-sm text-gray-700 mb-4">Preparing your body for birth is an act of empowerment. We don&apos;t just &quot;hope&quot; for a smooth delivery; we biomechanically engineer your pelvis to facilitate it. Whether you are aiming for a natural birth, C-section or a VBAC, we prepare your body for this journey.</p>
+                <p className="text-sm text-gray-700 mb-4">Preparing your body for birth is an act of empowerment. We don&apos;t just &quot;hope&quot; for a smooth delivery; we can use movement science to support it. Whether you are aiming for a natural birth, C-section or a VBAC, we ensure your body is physically prepared and feeling resilient for the journey ahead.
+                </p>
                 
                 <ul className="space-y-2 text-sm text-gray-600 mb-6 bg-white p-4 border-l-4 border-[#C5A059]">
                     <li><strong>Pelvic Alignment Work:</strong> Creating maximum space for the baby to descend.</li>
@@ -320,9 +328,12 @@ const Brochure = () => {
 
                 <div className="bg-white p-4 border border-gray-200 text-sm text-gray-700 space-y-2">
                     <strong className="block text-[#C5A059]">Real Story: &quot;The Doctor Mum&quot; (Dr. Toyin)</strong>
-                    <p><strong>The Struggle:</strong> A Dermatologist wanted a VBAC but her body felt tight and misaligned.</p>
-                    <p><strong>The HWG Breakthrough:</strong> Her pelvis was twisted. We balanced her ligaments and taught her biomechanics.</p>
-                    <p><strong>The Transformation:</strong> She felt lighter and more mobile at 39 weeks... achieved a successful, uncomplicated natural birth.</p>
+                    <p><strong>The Struggle:</strong> A Dermatologist wanted a VBAC, but her body felt stiff and very weak.
+                    </p>
+                    <p><strong>The HWG Breakthrough:</strong> Her old c-section scar tension was quietly affecting her hips, back, and pelvic floor. By releasing the adhesions and restoring strength, her body felt stronger and ready for birth.
+                    </p>
+                    <p><strong>The Transformation:</strong> She felt grounded and more mobile at her 37th week of pregnancy and achieved a successful, uncomplicated natural birth.
+                    </p>
                 </div>
             </div>
         </div>

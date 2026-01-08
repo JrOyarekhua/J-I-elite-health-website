@@ -31,7 +31,8 @@ const Page = () => {
               </div>
               <div className="bg-white/10 p-8 rounded border border-white/20">
                  <h3 className="font-serif text-2xl mb-4 text-accent">Retain Global Excellence</h3>
-                 <p className="text-gray-300">Keep your patients within a trusted care loop by providing international-standard rehabilitation—eliminating the need for medical travel and ensuring local clinical continuity.</p>
+                 <p className="text-gray-300">Keep your patients within a trusted care loop by providing international-standard rehabilitation, eliminating the need for medical travel and ensuring local clinical continuity.
+                 </p>
               </div>
             </div>
           </div>

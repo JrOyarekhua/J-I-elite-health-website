@@ -17,6 +17,7 @@ const PAGE_ROUTES = {
     method: 'Method',
     clinicians: 'Clinicians',
     contact: 'Contact',
+    value: 'Value'
 } as const satisfies Record<PageRoute, string>;
 
 

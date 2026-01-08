@@ -51,7 +51,8 @@ const Page = () => {
         <div className="bg-white p-8 shadow-xl border-l-4 border-main">
           <h3 className="font-serif text-2xl mb-4">The Founder&apos;s Edge</h3>
           <p className="text-gray-600 mb-6 text-sm leading-relaxed">
-            This protocol was not built in a vacuum. It is the result of <strong>20 years and 50,000 clinical hours</strong>. Dr. Ann has decoded the physiological nuances of the African and Diaspora female body—understanding complexities (like hypertonic stress patterns and keloid scarring) that standard Western medicine often overlooks.
+            This protocol was not built in a vacuum. It is the result of <strong>20 years and 50,000 clinical hours</strong>. Dr. Ann has mastered the clinical nuances required to treat the modern African woman, focusing on deep-seated tension patterns and restorative healing that traditional healthcare systems frequently miss.
+
           </p>
           <Button variant="secondary" onClick={() => router.push('/founder')}>Meet Dr. Ann</Button>
         </div>

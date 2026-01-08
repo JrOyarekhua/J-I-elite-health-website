@@ -24,7 +24,7 @@ const Hero = () => {
           <Typography variant="body" className="max-w-md">
             Global expertise. Private care. No visa required. 
             <br/><br/>
-            We brought the standards of <strong>Stanford Health Care</strong> and <strong>Harley Street</strong> to your doorstep in Maitama.
+            We brought the highest global standards of restorative care directly to you. Experience world-class clinical excellence and specialized care without leaving the country.
           </Typography>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button variant="primary" onClick={() => router.push('/contact')}>Request A Virtual Consultation</Button>
@@ -44,7 +44,7 @@ const Hero = () => {
             
             {/* The Quote Overlay */}
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#1A202C]/80 to-transparent p-8 text-white">
-              <p className="font-serif italic text-lg">&quot;Finally, I don&apos;t have to fly to London.&quot;</p>
+              <p className="font-serif italic text-lg">&quot;Global clinical excellence has found a home in Abuja.&quot; </p>
             </div>
           </div> 
         </div> 

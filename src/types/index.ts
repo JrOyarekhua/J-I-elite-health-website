@@ -24,7 +24,7 @@ export interface ClinicianIndication {
 }
 
 // explicitly defines page route types in order to prevent broken links 
-export type PageRoute =  'home' | 'programs' | 'founder' | 'clinicians' | 'contact' | 'method';
+export type PageRoute =  'home' | 'programs' | 'founder' | 'clinicians' | 'contact' | 'method' | 'value';
 
 export interface formData {
     fullName: string,

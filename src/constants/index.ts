@@ -10,7 +10,7 @@ export const PROGRAMS: Program[] = [
         tagline: 'For the woman who cannot afford downtime.',
         description: 'Eliminate back pain, build a stronger core, and carry yourself with confidence in the boardroom.',
         interventions: ['Deep Core Reconstruction', 'Reduce Tension & Postural Realignment', 'Improve Confidence & Body Comfort'],
-        outcome: 'Outcome: Pain-free focus & confidence in fitted couture.',
+        outcome: 'Outcome: Pain-free focus & confidence  High Level Performance.',
         whoFor: 'The CEO, Director, or Banker suffering from "Executive Spine", unresolved Diastasis Recti, or stress-induced pelvic tension.',
         story: {
           name: 'Amina, Banking Executive, Wuse II',
@@ -27,7 +27,7 @@ export const PROGRAMS: Program[] = [
         tagline: 'For dignity, inner peace, and confidence.',
         description: 'Treat personal problems like bladder leakage not as "old age," but as a treatable mechanical issue.',
         interventions: ['Pelvic Floor Lift', 'Dryness Training', 'Pre & Post Surgical Rehabilitation'],
-        outcome: 'Outcome: Dignity during Salah and confidence to travel to London.',
+        outcome: 'Outcome: Dignity, Confidence, and Freedom to Travel & Enjoy Life Fully.',
         whoFor: 'The mother, grandmother or senior society figure navigating prolapse, urgency, or anxiety during worship.',
         story: {
           name: 'Hajia B., Maitama',
@@ -44,8 +44,8 @@ export const PROGRAMS: Program[] = [
         tagline: 'For a smoother, safer, empowered delivery.',
         description: 'Prepare your body with movement science, creating the space and path your baby needs for a smoother, safer, and more empowered delivery.',
         interventions: ['Pelvic Alignment Work', 'Labor & Delivery Preparation', 'Perineal Protection'],
-        outcome: 'Outcome: An empowered delivery and faster snap-back.',
-        whoFor: 'Pregnant women (2nd/3rd Tri) seeking a natural birth, VBAC, or safer delivery.',
+        outcome: 'Outcome: An Empowered Delivery and Confident Postnatal Recovery.',
+        whoFor: 'Pregnant women looking to resolve pregnancy-related pain while proactively preparing for a healthy and safe delivery.',
         story: {
           name: 'Dr. Toyin, Dermatologist',
           quote: "I felt mentally and emotionally prepared for labor after working with Dr. Nwabuebo, and was grateful to have an uncomplicated delivery."
@@ -75,10 +75,10 @@ export const PROGRAMS: Program[] = [
       {
         id: 'fertility',
         title: 'Vitality & Fertility Optimization',
-        tagline: 'Preparing the "Womb Space" for new life.',
+        tagline: 'Preparing the Body for new life.',
         description: 'Release pelvic adhesions and optimize blood flow to reproductive organs before conception or IVF.',
         interventions: ['Scar Tissue & Adhesion Release', 'Guided Movement for Optimized Flow', 'Nervous System Reset'],
-        outcome: 'Outcome: A receptive, relaxed body ready to receive life.',
+        outcome: 'Outcome: A Body in Balance, Ready to Support New Life.',
         whoFor: 'Women preparing for conception or IVF who want to maximize success rates by removing mechanical barriers.',
         story: {
           name: 'Zainab, Architect, Asokoro',
@@ -92,14 +92,14 @@ export const PROGRAMS: Program[] = [
       {
         id: 'pain',
         title: 'Chronic Pelvic Pain Sanctuary',
-        tagline: 'The end of medical gaslighting.',
+        tagline: 'Where Your Pain Is Taken Seriously.',
         description: 'Stop the cycle of painkillers. We treat the mechanical root causes of chronic pelvic and abdominal pain.',
         interventions: ['Pain-Loop Interruption', 'Adhesion Breaking', 'Root Cause Assessment'],
-        outcome: 'Outcome: The end of undefined pain and "recurring infections."',
+        outcome: 'Outcome: Relief Without Reliance on Medications.',
         whoFor: 'Women suffering from Endometriosis, mysterious abdominal pain, or Vaginismus.',
         story: {
           name: 'P.K., The Pain Warrior',
-          quote: "After 16 visits, my pain was 90% improved. I didn't just return to running; I ran my fastest 10k ever."
+          quote: "After 16 visits, my pain was 90% improved. I wasn’t afraid to move my body anymore, and I could travel and enjoy being with my family and friends"
         },
         image:{
           url: '/images/programs/ann_explaining.jpeg',
@@ -124,7 +124,7 @@ export const CLINICIAN_INDICATIONS: ClinicianIndication[] = [
   },
   {
     category: 'Urology',
-    details: 'Interstitial Cystitis/Painful Bladder Syndrome, Chronic Prostatitis/CPPS, Post-Prostatectomy Incontinence, Pudendal Neuralgia.'
+    details: 'Interstitial Cystitis/Painful Bladder Syndrome, Chronic Prostatitis/CPPS, Post-Prostatectomy Incontinence.'
   },
   {
     category: 'Gastroenterology & Colo-rectal',
