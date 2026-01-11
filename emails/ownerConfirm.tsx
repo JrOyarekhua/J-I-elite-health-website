@@ -71,10 +71,10 @@ export default function OwnerConfirmEmail({data} : OwnerConfirmProps) {
                 <p className="text-gray-400 text-[10px] font-bold uppercase tracking-tighter m-0">Inquiry Focus</p>
                 <p className="text-[#1A202C] text-sm font-medium capitalize mt-1 leading-tight">{displayGoal}</p>
               </div>
-              <div className="w-1/2">
+              {/* <div className="w-1/2">
                 <p className="text-gray-400 text-[10px] font-bold uppercase tracking-tighter m-0">Contact Via</p>
                 <p className="text-[#1A202C] text-sm font-medium mt-1">{data.contactOption || "WhatsApp"}</p>
-              </div>
+              </div> */}
             </div>
 
             <div className="pt-4 border-t border-gray-200">
