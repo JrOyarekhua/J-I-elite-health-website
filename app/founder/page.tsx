@@ -7,6 +7,7 @@ import {
   Dot,
   Newspaper,
   Activity,
+  GraduationCap,
   Mic,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -14,7 +15,8 @@ import Image from "next/image";
 
 const Page = () => {
   const router = useRouter();
-  const contributionsStx = ' bg-[#FDFBF7] p-6 rounded border border-gray-100 hover:border-[#C5A059] transition-colors '
+  const contributionsStx =
+    " bg-[#FDFBF7] p-6 rounded border border-gray-100 hover:border-[#C5A059] transition-colors ";
   return (
     <div className="animate-in fade-in duration-500">
       {/* Letter from Founder */}
@@ -60,30 +62,26 @@ const Page = () => {
                 understands the cultural and emotional landscape of your life.
               </p>
               <p>
-                At <strong>J&I</strong>,We provide international standard
-                women’s health and wellness support alongside our signature
-                Healing With Grace Pelvic Wellness Protocol. We offer a
-                sanctuary. We provide international-standard{" "}
-                <strong>hormonal support</strong> and our signature{" "}
-                <strong>Healing With Grace</strong> pelvic wellness protocols.
-                We offer the expert care you expect from global centers,
-                balanced with a profound cultural empathy that honors your
-                story, your privacy, and your lifestyle
+                At <strong>J&I</strong>, we provide a &quot;clinical
+                extension&quot; of your lifestyle. Here, we don’t just offer
+                services; we offer a sanctuary. We provide international
+                standard women’s health and wellness support alongside our
+                signature <strong>Healing With Grace</strong> Pelvic Wellness
+                Protocol. We offer the expert care you expect from global
+                centers, balanced with a profound cultural empathy that honors
+                your story, your privacy, and your lifestyle.
               </p>
               <p>
                 This center is a tribute to the values of faith and excellence
-                instilled in me by my parents, Joshua and Idongesit Udofia. It
-                is my commitment to you that you no longer have to choose
-                between world-class science and the comfort of home.
-              </p>
-              <p>
-                You have always cared for your family, your businesses, and your
-                community with excellence. It is now our honor to care for you.
+                instilled in my siblings and I by our parents, Mr & Mrs Joshua
+                and Idongesit Reuben Udofia. You have always cared for your
+                family, your businesses, and your community with excellence. It
+                is now our honor to care for you.
               </p>
               <div className="pt-6">
                 <p className="font-bold">With Grace and Excellence,</p>
                 <p className="text-accent text-xl mt-2 italic">
-                  Dr. Ann Nwabuebo, DPT, WCS
+                  Dr. Ann Nwabuebo, PT, DPT, WCS
                 </p>
                 <p className="text-sm text-gray-400">
                   Founder, J&I Elite Women’s Health
@@ -123,14 +121,14 @@ const Page = () => {
               <div className="space-y-4 text-gray-700 leading-relaxed text-sm md:text-base">
                 <p>
                   Dr. Ann Nwabuebo is a globally recognized leader in pelvic
-                  health and women’s wellness, bringing over two decades of
-                  clinical mastery from the world’s most advanced healthcare
-                  ecosystems to Nigeria. As a{" "}
+                  health and women’s wellness, bringing 20+ years of clinical
+                  mastery from the world’s most advanced healthcare ecosystems
+                  to Nigeria. As a{" "}
                   <strong>
                     Board-Certified Women’s Health Clinical Specialist (WCS)
-                  </strong>
-                  —a prestigious distinction held by less than 1% of physical
-                  therapists worldwide—Dr. Nwabuebo has dedicated her career to
+                  </strong>{" "}
+                  a prestigious distinction held by less than 1% of physical
+                  therapists worldwide, Dr. Nwabuebo has dedicated her career to
                   redefining the standard of care for the discerning woman. Her
                   journey is defined by a rare combination of academic rigor,
                   clinical innovation, and an unwavering commitment to the
@@ -175,7 +173,7 @@ const Page = () => {
                   bridging the gap between world-class science and deep cultural
                   empathy, Dr. Nwabuebo is not simply providing a service; she
                   is establishing a new legacy of health for Nigerian women who
-                  demand—and deserve—the very best.
+                  demand and deserve the very best.
                 </p>
               </div>
             </div>
@@ -217,8 +215,9 @@ const Page = () => {
                     <strong>Clinical Leadership:</strong> Established signature
                     pelvic health programs at the following organizations -
                     Google (Palo Alto, CA); Kaiser Permanente (Dublin, CA);
-                    Medstar (Mclean, VA); Jefferson Moss Magee Rehabilitation;
-                    Body Connect Physical Therapy
+                    Medstar (Mclean, VA); Jefferson Moss Magee Rehabilitation
+                    (Philadelphia, PA); Body Connect Physical Therapy
+                    (Washington D.C. Area)
                   </span>
                 </li>
                 <li className="flex gap-4 items-start">
@@ -286,7 +285,7 @@ const Page = () => {
             </Typography>
 
             {/* Articles / Publications Container gap32px */}
-            <div className="grid md:grid-cols-2 flex-wrap justify-center gap-8 items-start">
+            <div className="grid md:grid-cols-2 flex-wrap justify-center gap-8 auto-cols-fr auto-rows-fr ">
               {/* Item 1: NYT */}
               <div className={contributionsStx}>
                 <div className="flex items-center gap-3 mb-4">
@@ -306,7 +305,6 @@ const Page = () => {
                   href="https://www.nytimes.com/2025/01/01/well/move/fitness-new-years-resolutions.html"
                   rel="no reffer"
                   target="_blank"
-                  
                   className="text-xs font-bold uppercase tracking-widest border-b border-[#1A202C] pb-1 hover:text-[#C5A059] hover:border-[#C5A059] transition-colors"
                 >
                   Read Article
@@ -329,10 +327,9 @@ const Page = () => {
                   Motherhood&quot;
                 </p>
                 <a
-                  href="https://www.google.com/search?q=https://about.nike.com/en/newsroom/releases/nike-move-like-a-mother"
+                  href="https://about.nike.com/en/newsroom/releases/nike-move-like-a-mother-program"
                   rel="no reffer"
                   target="_blank"
-                  
                   className="text-xs font-bold uppercase tracking-widest border-b border-[#1A202C] pb-1 hover:text-[#C5A059] hover:border-[#C5A059] transition-colors"
                 >
                   Learn More
@@ -354,35 +351,34 @@ const Page = () => {
                   Specialist: Improve Your Pelvic Health
                 </p>
                 <a
-                  href="https://link.springer.com/book/10.1007/978-3-030-85484-3"
+                  href="https://podcasts.apple.com/in/podcast/ann-nwabuebo-dpt-improve-your-pelvic-health/id1414073313?i=1000556509071"
                   rel="no reffer"
                   target="_blank"
-                  
                   className="text-xs font-bold uppercase tracking-widest border-b border-[#1A202C] pb-1 hover:text-[#C5A059] hover:border-[#C5A059] transition-colors"
                 >
                   Listen Here
                 </a>
-              </div> 
+              </div>
 
               {/* item 5 */}
               <div className={contributionsStx}>
                 <div className="flex items-center gap-3 mb-4">
-                  <Mic className="text-[#C5A059]" size={24} />
+                  <GraduationCap className="text-[#C5A059]" size={24} />
                   <h4 className="font-serif text-lg text-[#1A202C] font-bold group-hover:text-[#C5A059]">
-                  MDedge Family Medicine
+                    Each Woman’s Menopause
                   </h4>
                 </div>
                 <p className="text-xs font-bold text-[#C5A059] uppercase tracking-wider mb-2">
-                Expert Guest Specialist 
+                  Academic Author Chapter Contribution (2022)
                 </p>
                 <p className="text-gray-600 italic text-sm mb-4">
-                &quot;From Stigma to Support: Raising Awareness of Pelvic Organ Prolapse&quot;
+                  &quot;An Evidence Based Resource For Nurse Practitioners,
+                  Advanced Practice Nurses and Allied Health Professionals&quot;
                 </p>
                 <a
                   href="https://link.springer.com/book/10.1007/978-3-030-85484-3"
                   rel="no reffer"
                   target="_blank"
-                  
                   className="text-xs font-bold uppercase tracking-widest border-b border-[#1A202C] pb-1 hover:text-[#C5A059] hover:border-[#C5A059] transition-colors"
                 >
                   view publication
@@ -390,8 +386,10 @@ const Page = () => {
               </div>
             </div>
             <div className="text-center mt-8">
-            <span className="font-serif italic text-gray-400">...and many more.</span>
-          </div>
+              <span className="font-serif italic text-gray-400">
+                ...and many more.
+              </span>
+            </div>
           </div>
         </div>
       </Section>

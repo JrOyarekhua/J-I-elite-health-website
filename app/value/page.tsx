@@ -53,7 +53,7 @@ const ValuePage = () => {
                   <Plane className="mr-3 text-[#C5A059]" size={20} /> Business Class Flights
               </div>
               <div className="p-6 md:p-8 border-b border-r border-gray-100 text-center text-gray-500 font-medium">
-                  $12,000 - $22,000
+                  $4,500 - $7,000
               </div>
               <div className="p-6 md:p-8 border-b border-gray-100 text-center font-bold text-[#C5A059] bg-[#FDFBF7]">
                   $0
@@ -86,7 +86,7 @@ const ValuePage = () => {
                   TOTAL CASH OUTLAY
               </div>
               <div className="p-8 font-serif text-xl text-gray-500 text-center border-b border-r border-gray-100 bg-gray-50 line-through decoration-red-400 decoration-2">
-                  $32,500 - $50,000+
+                  $25,000 - $35,000+
               </div>
               <div className="p-8 font-serif text-3xl text-[#1A202C] text-center border-b border-gray-100 bg-[#FDFBF7]">
                   $10,000

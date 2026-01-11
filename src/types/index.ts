@@ -30,7 +30,7 @@ export interface formData {
     fullName: string,
     primaryGoal: string,
     proxyDetails?: string,
-    contactOption: string,
+    // contactOption: string,
     email: string,
     customGoal?: string,
     bookingType: string,

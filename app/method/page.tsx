@@ -40,7 +40,7 @@ const Page = () => {
             </li>
             <li className="flex items-start gap-3">
               <X className="text-red-400 mt-1 shrink-0" size={20} />
-              <span className="text-gray-600 text-sm">Ignoring deep abdominal scarring from fibroids.</span>
+              <span className="text-gray-600 text-sm">Ignoring deep abdominal scarring from previous surgeries or conditions like fibroids.</span>
             </li>
             <li className="flex items-start gap-3">
               <CheckCircle2 className="text-accent mt-1 shrink-0" size={20} />

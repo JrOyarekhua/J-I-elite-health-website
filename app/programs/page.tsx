@@ -14,7 +14,7 @@ const Programs = () => {
         <Typography variant="h4" color="text-accent" className="mb-4">Signature Programs</Typography>
         <Typography variant="h1" className="mb-6">Curated Clinical Pathways</Typography>
         <Typography variant="body">
-          Our <strong> 2-Week (10 session) Intensive Model</strong> is proven to deliver months of results in a condensed window. We heal the root cause so you don&apos;t have to keep coming back.
+          Our <strong> 2-Week (20 session) Intensive Model</strong> is proven to deliver months of results in a condensed window. We heal the root cause so you don&apos;t have to keep coming back.
         </Typography>
         
         {/* BROCHURE Link button (change to download later) */}

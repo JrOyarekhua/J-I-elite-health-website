@@ -55,7 +55,7 @@ const Contact = () => {
             <span className="font-bold text-lg">Call Concierge</span>
             <span className="text-xs opacity-90 mt-1">Speak with a Care Professional</span>
           </a>
-          <a href="mailto:annudofia@gmail.com?subject=Inquiry%20about%20J&I%20Services" className="flex flex-col items-center justify-center p-8 bg-white border border-gray-200 text-[#1A202C] rounded shadow-sm hover:border-[#C5A059] transition-all transform hover:-translate-y-1">
+          <a href="mailto:annudofia@gmail.com?subject=Inquiry%20About%20Services" className="flex flex-col items-center justify-center p-8 bg-white border border-gray-200 text-[#1A202C] rounded shadow-sm hover:border-[#C5A059] transition-all transform hover:-translate-y-1">
             <Mail size={32} className="mb-4 text-[#C5A059]" />
             <span className="font-bold text-lg">Email Inquiry</span>
             <span className="text-xs text-gray-500 mt-1">Response within 24 hours</span>
@@ -104,8 +104,13 @@ const Contact = () => {
                         className={STX.input}
                       >
                         <option value="">Select a Priority...</option>
-                        <option value='chronic_pain_relief'>Chronic Pain Relief</option>
-                        <option value='postpartum_recovery'>Postpartum Recovery</option>
+                        <option value="chronic_pain">Chronic Pain</option>
+                        <option value="pelvic_health">Pelvic Health</option>
+                        <option value="pregnancy">Pregnancy</option>
+                        <option value="postportum">Postpartum</option>
+                        <option value="back_pain">Back Pain</option>
+                        <option value="fertility">Fertility</option>
+                        <option value="sports_injury_recovery">Sports Injury & Recovery</option>
                         <option value='Other'>Other...</option>
                       </select>
                     </div>
@@ -142,7 +147,7 @@ const Contact = () => {
                   {/* Action Bar */}
                   <div className="pt-4 border-t border-gray-100 flex flex-col md:flex-row items-center gap-6 justify-between">
                     <Button type="submit" variant="primary" className="w-full md:w-auto min-w-[200px]" disabled={status === 'submitting'}>
-                      {status === 'submitting' ? 'Processing...' : 'Request Private Assessment'}
+                      {status === 'submitting' ? 'Processing...' : 'Request A Consultation'}
                     </Button>
                     <div className="flex items-center gap-2 text-xs text-gray-400">
                       <Lock size={14} />

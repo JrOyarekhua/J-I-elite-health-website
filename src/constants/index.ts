@@ -28,7 +28,7 @@ export const PROGRAMS: Program[] = [
         description: 'Treat personal problems like bladder leakage not as "old age," but as a treatable mechanical issue.',
         interventions: ['Pelvic Floor Lift', 'Dryness Training', 'Pre & Post Surgical Rehabilitation'],
         outcome: 'Outcome: Dignity, Confidence, and Freedom to Travel & Enjoy Life Fully.',
-        whoFor: 'The mother, grandmother or senior society figure navigating prolapse, urgency, or anxiety during worship.',
+        whoFor: 'For dignity, integrity in spiritual life, and full participation in life',
         story: {
           name: 'Hajia B., Maitama',
           quote: "I was leaking urine during Salah and avoided travel. Dr. Ann showed me it was a mechanical issue. Now, I am dry and confident."
@@ -62,7 +62,7 @@ export const PROGRAMS: Program[] = [
         description: 'Your family cares for you and the baby, and we care for your physical recovery. We’re here to help heal the "mummy tummy", treat your birth scars, and back pain.',
         interventions: ['C-Section Scar Release', 'Pelvic Realignment', 'Intimacy Recovery'],
         outcome: 'Outcome: A healed core and physical freedom to enjoy motherhood.',
-        whoFor: 'The new mother (C-section or Vaginal) who wants to "snap back" safely without injuring herself.',
+        whoFor: 'The new mother (after a c-section or vaginal birth) who wants to recover safely and completely.',
         story: {
           name: 'E.K., New Mum',
           quote: "My pain vanished. I returned to work and resumed intimacy with my husband. I went on to have a second, pain-free pregnancy."
