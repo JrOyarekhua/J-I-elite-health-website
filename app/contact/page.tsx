@@ -147,7 +147,7 @@ const Contact = () => {
                   {/* Action Bar */}
                   <div className="pt-4 border-t border-gray-100 flex flex-col md:flex-row items-center gap-6 justify-between">
                     <Button type="submit" variant="primary" className="w-full md:w-auto min-w-[200px]" disabled={status === 'submitting'}>
-                      {status === 'submitting' ? 'Processing...' : 'Request A Consultation'}
+                      {status === 'submitting' ? 'Processing...' : 'Request Consultation'}
                     </Button>
                     <div className="flex items-center gap-2 text-xs text-gray-400">
                       <Lock size={14} />

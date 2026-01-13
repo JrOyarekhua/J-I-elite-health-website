@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { Award, CheckCircle2, ShieldCheck, Target } from "lucide-react";
+import { Award, CheckCircle2, Dot, ShieldCheck, Target } from "lucide-react";
 import { Section, Typography, Button } from "@/src/components/ui";
 import { useRouter } from "next/navigation";
 
@@ -160,48 +160,56 @@ const Brochure = () => {
                 in the world.
               </p>
               <p>
-                But throughout those years—even while developing programs for
-                global icons like Google and Nike—my heart was always looking
-                toward home.
+                But throughout those years,even while developing programs for
+                global icons like Google and Nike,I wanted to bring the same
+                depth, rigor, and standard of care back home.
               </p>
               <p>
-                I am often asked why I returned to establish{" "}
-                <strong>J&I</strong>. The answer is simple: I believe the
-                Nigerian woman represents a unique intersection of strength,
-                grace, and legacy. Yet, for too long, she has had to look beyond
-                our borders—to London, Dubai, or New York—to find the level of
-                healthcare, privacy, and specialized expertise she deserves.
+                Every Nigerian woman represents a unique intersection of
+                strength, grace, and legacy. Yet, for too long, we have had to
+                look beyond our borders whether it’s London, New York or Dubai,
+                to find the level of healthcare, privacy, and specialized
+                expertise we deserve.
               </p>
-              <p className="font-bold border-l-4 border-[#C5A059] pl-4 italic">
-                I founded this center to close that gap.
-              </p>
+              <div className="border-l-2 border-accent pl-1 flex gap-2 ">
+                <Dot />
+                <p className="font-bold">
+                  <strong>I founded this center to close that gap.</strong>
+                </p>
+              </div>
               <p>
                 As one of the few Board-Certified Women’s Health Specialists
-                (WCS) globally—a distinction held by less than 1% of my
-                profession—I recognize that elite clinical results require more
+                (WCS) globally,a distinction held by less than 1% of my
+                profession,I recognize that elite clinical results require more
                 than just technology. They require a practitioner who
                 understands the cultural and emotional landscape of your life.
               </p>
               <p>
                 At <strong>J&I</strong>, we provide a &quot;clinical
                 extension&quot; of your lifestyle. Here, we don’t just offer
-                services; we offer a sanctuary. We provide
-                international-standard <strong>hormonal support</strong> and our
-                signature <strong>Healing With Grace™</strong> pelvic wellness
-                protocols. We offer the expert care you expect from global
+                services; we offer a sanctuary. We provide international
+                standard women’s health and wellness support alongside our
+                signature <strong>Healing With Grace</strong> Pelvic Wellness
+                Protocol. We offer the expert care you expect from global
                 centers, balanced with a profound cultural empathy that honors
                 your story, your privacy, and your lifestyle.
               </p>
               <p>
                 This center is a tribute to the values of faith and excellence
-                instilled in me by my parents, Joshua and Idongesit Udofia. It
-                is my commitment to you that you no longer have to choose
-                between world-class science and the comfort of home.
+                instilled in my siblings and I by our parents, Mr & Mrs Joshua
+                and Idongesit Reuben Udofia. You have always cared for your
+                family, your businesses, and your community with excellence. It
+                is now our honor to care for you.
               </p>
-              <p>
-                You have always cared for your family, your businesses, and your
-                community with excellence. It is now our honor to care for you.
-              </p>
+              <div className="pt-6">
+                <p className="font-bold">With Grace and Excellence,</p>
+                <p className="text-accent text-xl mt-2 italic">
+                  Dr. Ann Nwabuebo, PT, DPT, WCS
+                </p>
+                <p className="text-sm text-gray-400">
+                  Founder, J&I Elite Women’s Health
+                </p>
+              </div>
             </div>
             <div className="pt-8 mt-8 border-t border-gray-200">
               <Typography variant="body" className="italic text-xl font-serif">

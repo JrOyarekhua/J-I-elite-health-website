@@ -56,8 +56,8 @@ const Page = () => {
               </div>
               <p>
                 As one of the few Board-Certified Women’s Health Specialists
-                (WCS) globally—a distinction held by less than 1% of my
-                profession—I recognize that elite clinical results require more
+                (WCS) globally,a distinction held by less than 1% of my
+                profession,I recognize that elite clinical results require more
                 than just technology. They require a practitioner who
                 understands the cultural and emotional landscape of your life.
               </p>

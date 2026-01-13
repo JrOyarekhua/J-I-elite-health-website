@@ -114,7 +114,7 @@ const Page = () => {
     
     <Section background="cream" className="py-20 text-center">
        <Typography variant="h2" className="mb-8">Ready to start your journey?</Typography>
-       <Button variant="primary" onClick={() => router.push('/contact')}>Request Assessment</Button>
+       <Button variant="primary" onClick={() => router.push('/contact')}>Request Consultation</Button>
     </Section>
   </div>
 );

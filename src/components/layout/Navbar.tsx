@@ -62,7 +62,7 @@ const DesktopNav = ({ pathname }: { pathname: string }) => {
           </Link>
         );
       })}
-      <Button variant="primary" size="sm" onClick={() => router.push('/contact')}>request a virtual consultation</Button>
+      <Button variant="primary" size="sm" onClick={() => router.push('/contact')}>request consultation</Button>
     </div>
     )
 }

@@ -27,7 +27,7 @@ const Hero = () => {
             We brought the highest global standards of restorative care directly to you. Experience world-class clinical excellence and specialized care without leaving the country.
           </Typography>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button variant="primary" onClick={() => router.push('/contact')}>Request A Virtual Consultation</Button>
+            <Button variant="primary" onClick={() => router.push('/contact')}>Request Consultation</Button>
             <Button variant="secondary" onClick={() => router.push('/clinicians')}>For Medical Professionals</Button>
           </div>
         </div>

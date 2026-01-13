@@ -9,14 +9,13 @@ import { formData } from "@/src/types";
   
 export default function OwnerConfirmEmail({data} : OwnerConfirmProps) {
 
-    // data = {
-    //     fullName: "Aisha Mohammed",
-    //     phoneNumber: "+2348031234567",
-    //     primaryGoal: "executive_core_revival",
-    //     contactOption: "WhatsApp",
-    //     email: 'aisha@gmail.com',
-    //     bookingType:'self'
-    //   }
+    data = {
+        fullName: "Aisha Mohammed",
+        phoneNumber: "+2348031234567",
+        primaryGoal: "executive_core_revival",
+        email: 'aisha@gmail.com',
+        bookingType:'self'
+      }
     console.log(`form details: ${data}`)
       
     const timestamp = new Date().toLocaleString('en-GB', { 
@@ -86,22 +85,22 @@ export default function OwnerConfirmEmail({data} : OwnerConfirmProps) {
           <div className="w-12 h-px bg-gray-200 mx-auto mb-8"></div>
 
           {/* Direct Response Actions */}
-          <div className="text-center">
+          <div>
             <p className="text-gray-400 text-[11px] font-bold uppercase tracking-widest mb-4">
               Immediate Response Actions
             </p>
             
-            <div className="flex flex-wrap justify-center gap-3">
+            <div>
               <a
                 href={`tel:${data.phoneNumber}`}
-                className="bg-[#C5A059] text-white px-8 py-3 rounded-md font-bold text-xs uppercase tracking-widest no-underline transition-opacity hover:opacity-90 inline-block min-w-[160px]"
+                className="bg-[#C5A059] text-white px-8 py-3 rounded-md font-bold text-xs uppercase tracking-widest no-underline transition-opacity hover:opacity-90 inline-block min-w-[160px] mr-1.5 text-center"
               >
                 Call Lead
               </a>
               
               <a
                 href={`https://wa.me/${data.phoneNumber.replace(/\D/g, '')}`}
-                className="bg-[#25D366] text-white px-8 py-3 rounded-md font-bold text-xs uppercase tracking-widest no-underline transition-opacity hover:opacity-90 inline-block min-w-[160px]"
+                className="bg-[#25D366] text-white px-8 py-3 rounded-md font-bold text-xs uppercase tracking-widest no-underline transition-opacity hover:opacity-90 inline-block min-w-[160px] text-center"
               >
                 WhatsApp
               </a>
