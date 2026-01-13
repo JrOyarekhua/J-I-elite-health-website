@@ -9,9 +9,6 @@ export async function POST(req: Request) {
 
   const resend = new Resend(`${process.env.RESEND_API_KEY}`);
 
-  const fromEmail = process.env.RESEND_FROM_EMAIL;
-  if (!fromEmail) throw new Error("RESEND_FROM_EMAIL is not set");
-
   const doctorHtml = await render(<OwnerConfirmEmail data={body}/>)
   const userHtml = await render(<ClientFollowUp data={body}/>)
   try {
