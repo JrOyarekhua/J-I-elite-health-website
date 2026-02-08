@@ -11,7 +11,9 @@ const Protocool = () => {
         <Typography variant="body" className="max-w-2xl mx-auto">
         A proprietary clinical protocol developed fusing advanced pelvic health 
         rehabilitation with the specific biomechanical needs of the 
-        Nigerian woman.
+        nigerian woman, targeting deep abdominal and pelvic scarring 
+        (from fibroids or C-sections), chronic muscle tension, 
+        and pelvic floor weakness common in women of african descent.
         </Typography>
       </div>
 

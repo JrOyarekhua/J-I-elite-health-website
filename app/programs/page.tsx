@@ -19,7 +19,7 @@ const Programs = () => {
         
         {/* BROCHURE Link button (change to download later) */}
         <div className="mt-8">
-            <Link href={'/brocure'} target="_blank" className="inline-flex items-center gap-3 px-8 py-3 bg-white border border-accent text-accent hover:bg-accent hover:text-white transition-all duration-300 font-medium tracking-wide uppercase text-sm shadow-md">
+            <Link href={'/brochure'} target="_blank" className="inline-flex items-center gap-3 px-8 py-3 bg-white border border-accent text-accent hover:bg-accent hover:text-white transition-all duration-300 font-medium tracking-wide uppercase text-sm shadow-md">
                 {/* <Download size={18} /> */}
                 View Our Full Clinical Pathways Guide
             </Link>

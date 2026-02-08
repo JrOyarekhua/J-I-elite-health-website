@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 const Brochure = () => {
   const router = useRouter();
   return (
-    <div id="brocure" className="bg-[#FDFBF7] antialiased">
+    <div id="brochure" className="bg-[#FDFBF7] antialiased">
       {/* PAGE 1: COVER */}
       <Section
         className="min-h-screen relative flex flex-col justify-between p-8 md:p-12 border-b border-[#C5A059]/20 overflow-hidden"
@@ -154,14 +154,14 @@ const Brochure = () => {
                 For over twenty years, my professional journey has taken me
                 across four continents and into the heart of the world’s most
                 advanced clinical spaces. From the innovation hubs of Silicon
-                Valley to the prestigious halls of Stanford and the University
-                of Pennsylvania, I have been privileged to shape the standards
-                of pelvic health for some of the most discerning organizations
-                in the world.
+                Valley to the prestigious halls of the University of
+                Pennsylvania, I have been privileged to shape the standards of
+                pelvic health for some of the most discerning organizations in
+                the world.
               </p>
               <p>
-                But throughout those years,even while developing programs for
-                global icons like Google and Nike,I wanted to bring the same
+                But throughout those years, even while developing programs for
+                global icons like Google and Nike, I wanted to bring the same
                 depth, rigor, and standard of care back home.
               </p>
               <p>
@@ -180,7 +180,7 @@ const Brochure = () => {
               <p>
                 As one of the few Board-Certified Women’s Health Specialists
                 (WCS) globally,a distinction held by less than 1% of my
-                profession,I recognize that elite clinical results require more
+                profession, I recognize that elite clinical results require more
                 than just technology. They require a practitioner who
                 understands the cultural and emotional landscape of your life.
               </p>
@@ -1039,11 +1039,11 @@ const Brochure = () => {
                   <strong>WhatsApp:</strong>+1 (703)-209-3359
                 </li>
                 <li>
-                  <strong>Email:</strong> annudofia@gmail.com
+                  <strong>Email:</strong> concierge@jielitehealth.com
                 </li>
                 {/* <li><strong>Location:</strong> Private Suites in Maitama & Asokoro</li> */}
                 <li>
-                  <strong>Web:</strong> www.jielite.com
+                  <strong>Web:</strong> http://www.jielitehealth.com
                 </li>
               </ul>
             </div>
