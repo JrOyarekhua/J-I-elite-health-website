@@ -77,7 +77,7 @@ const Navbar = () => {
           {/* <Typography variant="h3" className="tracking-widest" >
             J&I <span className="text-accent">ELITE</span>
           </Typography> */}
-          <Image alt="logo" src={'/images/transparent_logo.png'} width={140} height={75}/>
+          <Image alt="logo" src={'/images/white_new.png'} width={200} height={100}/>
           
         </Link>
 

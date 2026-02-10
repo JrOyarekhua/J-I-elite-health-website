@@ -17,7 +17,7 @@ const Page = () => {
         <Typography variant="body" className="text-xl mb-4">
           Global Clinical Excellence. Specialized for the African Woman.
         </Typography>
-        <Image alt="logo" src={'/images/transparent_logo.png'} width={220} height={75}/>
+        <Image alt="logo" src={'/images/white_new.png'} width={500} height={80}/>
       </div>
     </Section>
 

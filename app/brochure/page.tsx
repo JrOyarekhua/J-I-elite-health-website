@@ -26,13 +26,13 @@ const Brochure = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-[#1A202C]/90 via-transparent to-transparent"></div>
         </div>
         <div className="relative z-10 w-32 mb-8">
-          <Image
-            src="/images/transparent_logo.png"
+          {/* <Image
+            src="/images/white_new.png"
             alt="J&I Logo"
             width={128}
             height={64}
             className="opacity-90"
-          />
+          /> */}
         </div>
         <div className="relative z-10 text-center mt-auto mb-24">
           <Typography
@@ -204,7 +204,7 @@ const Brochure = () => {
               <div className="pt-6">
                 <p className="font-bold">With Grace and Excellence,</p>
                 <p className="text-accent text-xl mt-2 italic">
-                  Dr. Ann Nwabuebo, PT, DPT, WCS
+                  Dr. Ann Udofia Nwabuebo, PT, DPT, WCS
                 </p>
                 <p className="text-sm text-gray-400">
                   Founder, J&I Elite Women’s Health
@@ -216,7 +216,7 @@ const Brochure = () => {
                 With Grace and Excellence,
               </Typography>
               <strong className="block text-[#1A202C] text-lg mt-4">
-                Dr. Ann Nwabuebo, DPT, WCS
+                Dr. Ann Udofia Nwabuebo, DPT, WCS
               </strong>
               <span className="text-[#C5A059] text-xs uppercase tracking-widest font-bold">
                 Founder, J&I Elite Women’s Health

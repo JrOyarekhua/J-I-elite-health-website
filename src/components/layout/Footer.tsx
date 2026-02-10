@@ -20,7 +20,7 @@ import {
 // 1. Content Schema (Easy to edit later)
 const FOOTER_DATA = {
   number: "+17032093359",
-  email: "annudofia@gmail.com",
+  email: "concierge@jielitehealth.com",
   copy: `© ${new Date().getFullYear()} J&I Elite Health & Wellness. All rights reserved.`,
 } as const;
 
@@ -80,7 +80,7 @@ const Footer = () => {
           <div className="flex gap-5 h-8">
             <a
               className="w-[28px] h-full"
-              href="https://www.instagram.com/annnwabuebo_dpt/"
+              href="https://www.instagram.com/jielitehealth?igsh=MThxYzk3bXp1Zm41aQ%3D%3D&utm_source=q"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -96,7 +96,7 @@ const Footer = () => {
             </a>
             <a
               className="w-7 h-8"
-              href="https://www.youtube.com/channel/UC5S8IUCCKcFsbrd8Bz1kXBQ"
+              href="http://www.youtube.com/@JIEliteHealth"
               target="_blank"
               rel="noopener noreferrer"
             >
