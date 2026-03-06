@@ -21,14 +21,14 @@ const Page = () => {
         </div>
         <div className="space-y-24">
           <div className="flex flex-col md:flex-row gap-12 items-start">
-            <div className="relative w-full md:w-1/3 aspect-[4/5] bg-gray-200 border border-gray-100 flex items-center justify-center text-gray-400 p-8 shadow-sm">
+            <div className="relative w-full md:w-1/3">
             <Image src='/images/advisory/Charles.JPG'
             alt="Professor Charles Ameh"
-            fill
+            width={400}
+            height={500}
+            className="w-full h-auto"
             />
             </div>
-           
-
             <div className="w-full md:w-2/3">
               <h3 className="font-serif text-2xl mb-1 text-[#1A202C]">
                 Professor Charles Ameh
@@ -87,10 +87,12 @@ const Page = () => {
 
           {/* Mariam Momodu  */}
           <div className="flex flex-col md:flex-row gap-12 items-start">
-            <div className="relative w-full md:w-1/3 aspect-[4/5] bg-gray-200 border border-gray-100 flex items-center justify-center text-gray-400 p-8 shadow-sm">
+            <div className="relative w-full md:w-1/3">
             <Image src='/images/advisory/Mariam.JPG'
             alt="Mariam Momodu"
-            fill
+            width={400}
+            height={500}
+            className="w-full h-auto"
             />
             </div>
             <div className="w-full md:w-2/3">
